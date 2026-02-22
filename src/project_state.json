@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 9,
+  "summary": "High-converting landing page for 'Organized Digital Life' brand promoting a 2026 Rainbow Digital Planner for iPad & GoodNotes. Minimal, elegant, Pinterest-friendly design with soft beige background and lavender accents. Target audience: women aged 18–35 interested in aesthetic digital planning. Single conversion goal with mobile-first optimization.",
+  "architectural_notes": [
+    "Single-page landing design with no navigation bar or footer",
+    "Mobile-first responsive layout optimized for Pinterest traffic",
+    "Soft beige background with lavender accents and clean typography",
+    "High-contrast CTA button repeated twice (hero and final sections)",
+    "Conversion-focused design with single goal and minimal distractions",
+    "No trust lines or subscription messaging allowed under CTA buttons"
+  ],
+  "known_issues": [],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-implement-hero-section-with-large-headline-stay-organized-in-2026-without-overcomplicating-your-life-subheadline-the-all-in-one-digital-planner-for-ipad-goodnotes-centered-ipad-mockup-showing-colorful-weekly-layout-prominent-rounded-cta-button-labeled-get-the-planner-now-and-trust-line-instant-download-no-subscription-required-below-the-button",
+      "title": "Implement hero section with large headline 'Stay Organized in 2026 Without Overcomplicating Your Life', subheadline 'The All-in-One Digital Planner for iPad & GoodNotes', centered iPad mockup showing colorful weekly layout, prominent rounded CTA button labeled 'Get The Planner Now', and trust line 'Instant Download – No Subscription Required' below the button",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-benefits-section-with-title-why-you-ll-love-this-planner-and-4-benefit-cards-with-check-icons-displaying-weekly-daily-pages-hyperlinked-navigation-habit-goal-tracking-and-clean-aesthetic-design",
+      "title": "Create benefits section with title 'Why You'll Love This Planner' and 4 benefit cards with check icons displaying: 'Weekly + Daily Pages', 'Hyperlinked Navigation', 'Habit & Goal Tracking', and 'Clean, Aesthetic Design'",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-visual-preview-section-showing-3-planner-preview-images-weekly-layout-daily-layout-and-habit-tracker-page",
+      "title": "Implement visual preview section showing 3 planner preview images: weekly layout, daily layout, and habit tracker page",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-who-it-s-for-section-with-bullet-list-containing-students-busy-professionals-entrepreneurs-and-anyone-who-wants-clarity-structure",
+      "title": "Create 'Who It's For' section with bullet list containing: 'Students', 'Busy Professionals', 'Entrepreneurs', and 'Anyone who wants clarity & structure'",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-final-cta-section-with-headline-start-planning-smarter-today-and-large-centered-cta-button",
+      "title": "Implement final CTA section with headline 'Start Planning Smarter Today' and large centered CTA button",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-minimal-elegant-pinterest-friendly-design-with-soft-beige-background-lavender-accents-clean-typography-and-generous-white-space-throughout-the-landing-page",
+      "title": "Apply minimal, elegant, Pinterest-friendly design with soft beige background, lavender accents, clean typography, and generous white space throughout the landing page",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-mobile-first-responsive-design-with-no-navigation-bar-no-social-media-icons-no-footer-distractions-optimized-for-minimal-scrolling-and-single-conversion-goal",
+      "title": "Implement mobile-first responsive design with no navigation bar, no social media icons, no footer distractions, optimized for minimal scrolling and single conversion goal",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-subtle-fade-in-animations-on-scroll-for-sections-to-enhance-user-experience-without-overwhelming-the-conversion-focused-layout",
+      "title": "Add subtle fade-in animations on scroll for sections to enhance user experience without overwhelming the conversion-focused layout",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-cta-buttons-use-high-contrast-design-to-stand-out-prominently-with-repeated-cta-placement-in-hero-and-final-sections-for-maximum-conversion-optimization",
+      "title": "Ensure CTA buttons use high contrast design to stand out prominently, with repeated CTA placement in hero and final sections for maximum conversion optimization",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-generated-planner-preview-images-ipad-mockup-weekly-layout-daily-layout-habit-tracker-page-as-static-assets-in-frontend-public-assets-generated",
+      "title": "Render generated planner preview images (iPad mockup, weekly layout, daily layout, habit tracker page) as static assets in frontend/public/assets/generated",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-trust-line-instant-download-no-subscription-required-from-below-the-cta-button-in-the-hero-section",
+      "title": "Remove the trust line 'Instant Download – No Subscription Required' from below the CTA button in the hero section",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-all-text-content-and-references-to-instant-download-from-the-entire-landing-page",
+      "title": "Remove all text content and references to 'Instant Download' from the entire landing page",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-all-text-content-and-references-to-no-subscription-required-from-the-entire-landing-page",
+      "title": "Remove all text content and references to 'No Subscription Required' from the entire landing page",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-refine-the-weekly-layout-preview-image-to-display-a-clean-aesthetic-mockup-with-a-visible-ipad-frame-soft-pastel-background-clearly-highlighted-weekly-structure-and-removal-of-any-cluttered-elements",
+      "title": "Refine the Weekly Layout preview image to display a clean aesthetic mockup with a visible iPad frame, soft pastel background, clearly highlighted weekly structure, and removal of any cluttered elements",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-refined-weekly-layout-image-as-a-static-asset-in-frontend-public-assets-generated-replacing-the-existing-weekly-layout-preview",
+      "title": "Render the refined Weekly Layout image as a static asset in frontend/public/assets/generated, replacing the existing weekly layout preview",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with headline, subheadline, iPad mockup, and CTA button",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Benefits section with 4 benefit cards and check icons",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Visual preview section showing 3 planner preview images",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Who It's For section with bullet list",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Final CTA section with headline and button",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Subtle fade-in animations on scroll",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Refine Weekly Layout image with clean aesthetic mockup, visible iPad frame, soft pastel background, clear weekly structure, no clutter",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Diagnose and resolve the deployment error that occurred during the previous build attempt",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Verify that all static assets in frontend/public/assets/generated are properly configured and accessible",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Ensure the backend main.mo actor compiles without errors and contains valid Motoko syntax",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Organized Digital Life",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

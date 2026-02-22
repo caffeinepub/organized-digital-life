@@ -1,0 +1,73 @@
+{
+  "kind": "build_request",
+  "title": "Fix deployment error",
+  "projectName": "Organized Digital Life",
+  "priority": "high",
+  "requirements": [
+    {
+      "id": "REQ-16",
+      "text": "Diagnose and resolve the deployment error that occurred during the previous build attempt",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Correct the mistake",
+          "🙏 Encountered a deployment error"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Application deploys successfully to the Internet Computer network",
+        "No deployment errors are reported during the build process",
+        "All existing features remain functional after deployment"
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "text": "Verify that all static assets in frontend/public/assets/generated are properly configured and accessible",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Generated planner preview images load correctly in the PreviewSection",
+        "iPad mockup image displays properly in the HeroSection",
+        "No 404 errors for static assets in browser console"
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "text": "Ensure the backend main.mo actor compiles without errors and contains valid Motoko syntax",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Backend builds successfully without compilation errors",
+        "Main actor is properly structured with valid Motoko syntax",
+        "Canister initialization completes without errors"
+      ]
+    }
+  ],
+  "constraints": [
+    "Maintain all existing features and functionality",
+    "Preserve the current single-actor backend architecture",
+    "Do not modify immutable frontend paths (useInternetIdentity.ts, useActor.ts, main.tsx, components/ui)",
+    "Keep the soft beige and lavender aesthetic design intact"
+  ],
+  "nonGoals": [
+    "Adding new features beyond fixing the deployment error",
+    "Redesigning the landing page layout",
+    "Changing the color scheme or visual design",
+    "Modifying existing text content or copy"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

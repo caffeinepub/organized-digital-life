@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete landing page with all sections in a conversion-focused, single-page layout without navigation or distractions.",
+  "frontend/src/components/HeroSection.tsx": "Hero section component featuring the main headline, subheadline, iPad mockup image, and primary CTA button with fade-in animation.",
+  "frontend/src/components/CTAButton.tsx": "Reusable high-contrast CTA button component with lavender styling, rounded design, hover effects, and scale animation for maximum conversion focus.",
+  "frontend/src/components/BenefitsSection.tsx": "Benefits section displaying four benefit cards with check icons, titles, and descriptions in a responsive grid layout with fade-in animation.",
+  "frontend/src/components/PreviewSection.tsx": "Visual preview section showcasing three planner preview images (weekly, daily, habit tracker) in a responsive grid with hover effects and fade-in animation.",
+  "frontend/src/components/AudienceSection.tsx": "Audience section with centered heading and bullet list of target audiences with decorative accent dots and fade-in animation.",
+  "frontend/src/components/FinalCTASection.tsx": "Final call-to-action section with headline and large centered CTA button to reinforce conversion goal with fade-in animation.",
+  "frontend/src/components/Footer.tsx": "Minimal footer component with Caffeine.ai attribution, UTM tracking, and copyright notice using current year dynamically.",
+  "frontend/src/hooks/useScrollAnimation.ts": "Custom React hook using Intersection Observer API to detect when elements enter viewport and trigger fade-in animations for smooth scroll effects.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file for React Query hooks (no backend queries needed for this static landing page).",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring soft beige background, lavender accents, custom CTA colors, Playfair Display for headings, and Inter for body text.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom color palette (beige/lavender), CTA colors, custom fonts (Playfair Display, Inter), increased border radius, and custom spacing utilities."
+}

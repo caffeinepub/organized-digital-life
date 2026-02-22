@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as a placeholder backend with no implemented functionality.",
+  "feature_evidence.json": "Empty feature evidence report JSON file with no features documented.",
+  "frontend-file-summaries.txt": "JSON metadata file containing summaries of all frontend components, describing a conversion-focused landing page for a digital planner product with sections for hero, benefits, previews, audience, and CTAs.",
+  "frontend/index.css": "Base Tailwind CSS configuration with OKLCH color system defining light and dark theme variables for backgrounds, foregrounds, borders, and chart colors using CSS custom properties.",
+  "frontend/index.html": "Minimal HTML entry point with viewport meta tag, title 'Organized Digital Life', and root div mounting the React application via main.tsx.",
+  "frontend/src/App.tsx": "Root React component that composes the complete landing page by rendering HeroSection, BenefitsSection, PreviewSection, AudienceSection, FinalCTASection, and Footer in sequence.",
+  "frontend/src/components/AudienceSection.tsx": "Section component displaying a 'Who It's For' heading with a bulleted list of four target audiences (students, professionals, entrepreneurs, anyone seeking structure) using scroll animation and decorative accent dots.",
+  "frontend/src/components/BenefitsSection.tsx": "Section component showcasing four product benefits in a responsive grid with check icons, titles, and descriptions, featuring hover effects and scroll-triggered fade-in animations.",
+  "frontend/src/components/CTAButton.tsx": "Reusable call-to-action button component with lavender styling, rounded full design, hover scale effects, and default scroll-to-top behavior when clicked.",
+  "frontend/src/components/FinalCTASection.tsx": "Final conversion section with 'Start Planning Smarter Today' headline and centered CTA button, using scroll animation for fade-in effect.",
+  "frontend/src/components/Footer.tsx": "Minimal footer displaying Caffeine.ai attribution with UTM tracking, dynamic copyright year, and subtle border styling.",
+  "frontend/src/components/HeroSection.tsx": "Hero section featuring main headline about staying organized in 2026, subheadline, iPad mockup image, and primary CTA button with scroll-triggered fade-in animation.",
+  "frontend/src/components/PreviewSection.tsx": "Section displaying three planner preview images (weekly layout, daily layout, habit tracker) in a responsive grid with hover shadow effects and scroll animations.",
+  "frontend/src/hooks/useActor.ts": "React hook managing Internet Computer actor creation with authentication support, handling both anonymous and authenticated actors, and invalidating dependent queries when identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "Intentionally empty placeholder file indicating no backend queries are needed for this static landing page.",
+  "frontend/src/hooks/useScrollAnimation.ts": "Custom React hook using IntersectionObserver to detect when elements enter the viewport and trigger visibility state for fade-in animations with configurable threshold.",
+  "frontend/src/index.css": "Global stylesheet extending Tailwind with OKLCH color system for soft beige/lavender theme, custom CTA colors, Playfair Display for headings, Inter for body text, increased border radius, and fade-in animation utility.",
+  "frontend/src/main.tsx": "React application entry point that sets up the root with QueryClient provider and InternetIdentityProvider wrapping the main App component.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration with custom color scheme using OKLCH color space, extended spacing, typography, animations, and plugins for container queries and typography.",
+  "project_state.json": "Project metadata defining a single-page landing page for a 2026 Rainbow Digital Planner with mobile-first design, soft beige/lavender aesthetic, and conversion-focused layout targeting women aged 18-35 from Pinterest traffic."
+}
